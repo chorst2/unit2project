@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock,Paper,Scissors,Lizard,Spock</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+<header>
+    <h1>Rock⭐Paper⭐Scissors⭐Lizard⭐Spock</h1>
+</header>
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h2 class="rock"><span class="badge badge-pill badge-warning">Rock</span></h2>
+            <img src="rock.jpg" height="131" width="165" id="rock" value="1" class="rock"/>
+        </div>
+        <div class="col">
+            <h2 class="paper"><span class="badge badge-pill badge-warning">Paper</span></h2>
+            <img src="paper.jpg" height="122" width="228" id="paper" value="2" class="paper"/>
+        </div>
+        <div class="col">
+            <h2 class="scissors"><span class="badge badge-pill badge-warning">Scissors</span></h2>
+            <img src="scissors.jpg" height="119" width="171" id="scissors" value="3" class="scissors"/>
+        </div>
+        <div class="col">
+            <h2 class="lizard"><span class="badge badge-pill badge-warning">Lizard</span></h2>
+            <img src="lizard.jpg" height="114" width="180" id="lizard" value="4" class="lizard"/>
+        </div>
+        <div class="col">
+            <h2 class="spock"><span class="badge badge-pill badge-warning">Spock</span></h2>
+            <img src="spock.jpg" height="167" width="143" id="spock" value="5" class="spock"/>
+        </div>
+    </div>
+    <button id="nextRound">Next Round</button>
+    <button id="restart">Restart</button>
+
+<!--    <div class="row align-items-end pictures">-->
+<!--        <div class="col rock">-->
+<!--            <img src="rock.jpg" height="131" width="165" id="rock" value="1"/>-->
+<!--        </div>-->
+<!--        <div class="col paper">-->
+<!--            <img src="paper.jpg" height="122" width="228" id="paper" value="2"/>-->
+<!--        </div>-->
+<!--        <div class="col scissors">-->
+<!--            <img src="scissors.jpg" height="119" width="171" id="scissors" value="3"/>-->
+<!--        </div>-->
+<!--        <div class="col lizard">-->
+<!--            <img src="lizard.jpg" height="114" width="180" id="lizard" value="4"/>-->
+<!--        </div>-->
+<!--        <div class="col spock">-->
+<!--            <img src="spock.jpg" height="167" width="143" id="spock" value="5"/>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <h2 id="output"></h2>
+    <h1 id="endAnnouncement"></h1>
+
+<div id="rules">
+    <h1>Rules</h1>
+    <p>
+        ◦Scissors cuts Paper<br>
+        ◦Paper covers Rock<br>
+        ◦Rock crushes Lizard<br>
+        ◦Lizard poisons Spock<br>
+        ◦Spock smashes Scissors<br>
+        ◦Scissors decapitates Lizard<br>
+        ◦Lizard eats Paper<br>
+        ◦Paper disproves Spock<br>
+        ◦Spock vaporizes Rock<br>
+        ◦Rock crushes Scissors<br><br>
+        Best 2 out of 3 wins
+    </p>
+</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+
+</body>
+</html>
